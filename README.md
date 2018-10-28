@@ -5,7 +5,9 @@
 * Upon execution, the user will be shown all available products and their costs along with departments.
 * The user will then be asked which item they'd like to buy along with the quantity they'd like to buy.
 * If the quantity requested is less than what's available in stock, the order will go through and the user will be shown a success message.
+    * The user requested quantity will then be reduced from the database/store quantity (stock).
 * If the quantity is insufficient, the user will receive an insufficient quantity message.
+
 
 
 * Tool used :  Node packages = "inquirer", "mysql", "cli-table"   ; MySQL database
